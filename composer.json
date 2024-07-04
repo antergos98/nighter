@@ -49,9 +49,9 @@
             "@php artisan migrate --graceful --ansi"
         ],
         "ci": [
-            "phpstan analyze",
             "pint",
-            "pest"
+            "pest",
+            "phpstan analyze"
         ]
     },
     "extra": {
