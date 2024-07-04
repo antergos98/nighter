@@ -3,9 +3,9 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Devdojo\Auth\Models\User as AuthUser;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Notifications\Notifiable;
-use Devdojo\Auth\Models\User as AuthUser;
 
 class User extends AuthUser
 {
